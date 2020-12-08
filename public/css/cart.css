@@ -1,0 +1,30 @@
+.btn-add,
+.btn-minus,
+.qty,
+.btn-delete {
+    margin: 2px;
+    height: 30px;
+    /* line-height: 30px; */
+    text-align: center;
+    width: 30px;
+}
+
+.btn-delete:hover {
+    color: red;
+}
+
+.qty {
+    width: 30px;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.required {
+    color: red;
+}
